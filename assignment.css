@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #edfffd;
+
+    /* background-color: #e6fffc; */
+}
+
+section{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding: 6rem;
+    position: relative
+    font-family: ;
+}
+.first-div{
+    weight: 460px;
+    height: 275px;
+    margin-top: 8rem;
+}
+
+form{
+    background-color: #ffffff;
+    padding: 3rem;
+}
+
+img{
+    width: 77px;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #000b0a;
+}
+
+p1{
+    color: #737373;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+}
+button{
+    background-color: #2ec4b6;
+}
+.name{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-bottom: 25px;
+}
+.options{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-bottom: 25px;
+}
+.units{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-bottom: 25px;
+}
+input{
+    width: 238px;
+    height: 48px;
+}
+label{
+    /* font-family: sofia pro; */
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 35px;
+}
+#dropdown{
+    width: 238px;
+    height: 48px;
+    color: #737373;
+}
+#activity{
+    width: 500px;
+    height: 48px;
+    margin-bottom: 25px;
+    color: #737373;
+}
+#password{
+    width: 500px;
+    height: 48px;
+    margin-bottom: 25px;
+    
+    
+}
+button{
+    width: 500px;
+    height: 48px;
+    margin-bottom: 25px;
+    color: white;
+    border: none;
+}
+ins a{
+    color: #2ec4b6;
+    
+}
+p{
+    color: black;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
